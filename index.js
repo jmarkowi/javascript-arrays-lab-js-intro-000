@@ -22,3 +22,9 @@ function appendKitten(name) {
   const moreKittens = kittens.concat(anotherKitten)
   return moreKittens
 }
+
+function prependKitten(name) {
+  const anotherKitten = [name]
+  const moreKittens = anotherKitten.concat(Kittens)
+  return moreKittens
+}
